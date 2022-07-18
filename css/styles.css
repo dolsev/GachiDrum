@@ -1,0 +1,100 @@
+body {
+background-color: rgb(122, 46, 46);    
+text-align: center;
+color:#5aeae8;
+}
+hr {
+    border-top: 5px dotted rgb(255, 255, 255);
+    width: 3%;
+    margin:auto;
+}
+
+
+img {
+    width: 60px;
+    height: 60px;
+    -webkit-filter: drop-shadow(2px 3px 5px rgb(255, 0, 0));
+    filter: drop-shadow(2px 3px 5px rgb(255, 0, 0));
+  
+}
+.label {
+    font-size: 120px;
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+    text-shadow: 2px;
+    text-shadow: 1px 2px 6px rgb(255, 0, 0);
+    padding: 32px auto;
+}
+
+a {
+    color:#5aeae8;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover {
+    color:#5aeae8;
+}
+.set {
+margin: 48px auto;
+}
+.drum {
+    width: 10rem;
+    height: 10rem;
+	border:2px solid #05aeae;
+    color:#5aeae8;
+    text-shadow: 3px 2px 6px rgb(255, 0, 0);
+	font-size:86px;
+    font-family: 'Ubuntu', sans-serif;
+    padding:32px auto;
+    margin: 5px;
+    background-size:cover;
+    background-position:center;
+}
+.drum:hover {
+    position:relative;
+	top:3px;
+}
+.drum:active {
+	position:relative;
+	top:6px;
+}
+
+footer {
+    padding-top: 42px;
+}
+.dolsev:hover{
+    text-shadow: 1px 2px 6px rgb(255, 0, 0);
+}
+
+
+.w{
+    background-image: url(/images/boy-next-door.jpg);
+
+}
+
+.a {
+    background-image:url(/images/fuckyou_N4ocxxs.jpg);
+
+}
+.s{
+    background-image:url(/images/orgasm-6.png);
+
+    background-color: white;
+}
+.d {
+    background-image:url(/images/spank-3.jpg);
+
+}
+.j {
+    background-image:url(/images/suction_lXUaIEQ.jpg);
+
+}
+.k {
+    background-image:url(/images/thats-amazing_i8ctuCt.jpg);
+
+}
+.l {
+    background-image:url(/images/woo_htcxajK.jpg);
+
+}
