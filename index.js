@@ -1,16 +1,15 @@
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
-
 for (var i=0;i<numberOfDrumButtons;i++) {
     document.querySelectorAll(".drum")[i].addEventListener(("click"), function(){
     makeSound(this.innerHTML);
-    buttonPressed(this.innerHTML);
+    buttonAnimation (this.innerHTML);
     })
 };
 
-document.addEventListener("keydown", function(event)
-{
+//Function below is a callback waiting for "keydown to be equal to"
+document.addEventListener("keydown", function(event){
     makeSound(event.key);
-    buttonPressed(event.key);
+    buttonAnimation(event.key);
 });
 
 function makeSound(key) {
@@ -45,10 +44,8 @@ function makeSound(key) {
         break;
     }
 }
-
-function buttonPressed(currentKey){
-var activateButton = document.querySelector("."+currentKey);
-activeButton.classList.add("pressed");
-setTimeout (function() {activeButton.classList.remove("pressed")}, 100);
+function buttonAnimation (currentKey) {
+ var activeButton = document.querySelector("."+currentKey);
+ activeButton.classList.add("pressed");
+ setTimeout (function(){activeButton.classList.remove("pressed");},100)
 }
-
